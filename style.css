@@ -27,21 +27,21 @@ body {
 #skills ul {
     list-style: none;
     padding: 0;
-    display: block; /* Altera o layout da lista para flexbox */
-    flex-direction: row; /* Disposição horizontal dos itens */
-    align-items: center; /* Alinhamento vertical ao centro */
+    display: block; 
+    flex-direction: row; 
+    align-items: center; 
   }
   
   .skill-item {
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Espaço entre os ícones e as barras de progresso */
-  }
+    margin-right: 20px; 
+}
   
   .skill-item progress {
-    height: 10px; /* Altura da barra de progresso */
-    width: 100px; /* Largura da barra de progresso */
-    margin: 0 10px; /* Espaço entre a barra de progresso e a porcentagem */
+    height: 10px; 
+    width: 100px; 
+    margin: 0 10px;
   }
 
 #project {
