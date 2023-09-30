@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111010;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#skills {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: block; /* Altera o layout da lista para flexbox */
+    flex-direction: row; /* Disposição horizontal dos itens */
+    align-items: center; /* Alinhamento vertical ao centro */
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Espaço entre os ícones e as barras de progresso */
+  }
+  
+  .skill-item progress {
+    height: 10px; /* Altura da barra de progresso */
+    width: 100px; /* Largura da barra de progresso */
+    margin: 0 10px; /* Espaço entre a barra de progresso e a porcentagem */
+  }
+
+#project {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#tool {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#project a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#project a:hover {
+    text-decoration:underline ;
+}   
+
+#contact {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+a:hover {
+    color: blue;
+    text-decoration:underline ;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
