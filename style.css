@@ -27,23 +27,11 @@ body {
 #skills ul {
     list-style: none;
     padding: 0;
-    display: block; 
+    margin-left: 39px;
+    line-height: 30px;
     flex-direction: row; 
     align-items: center; 
   }
-  
-  .skill-item {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; 
-}
-  
-  .skill-item progress {
-    height: 10px; 
-    width: 100px; 
-    margin: 0 10px;
-  }
-
 
 #project {
     text-align: left;
