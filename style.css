@@ -101,3 +101,36 @@ a:hover {
     background-color: transparent;
     border: none;
 }
+
+footer {
+    text-align: center;
+    background-color: #111010;
+    color: #ffffff;
+    font-size: medium;
+}
+
+#bottom a {
+    text-decoration: none;
+}
+
+#bottom a:hover {
+    text-decoration:underline ;
+}
+
+@media screen and (max-width: 600px) {
+    #skills {
+        width: 100%;
+    }
+
+    #project {
+        width: 100%;
+    }
+
+    #tool {
+        width: 100%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+}
