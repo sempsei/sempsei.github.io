@@ -14,12 +14,14 @@
 
 <body>
     <div id="container">
-        <h1>hey, I'm Luan 👋</h1>
-        <img src="https://readme-typing-svg.herokuapp.com/?color=8727a8&size=35&center=true&vCenter=true&width=1000&lines=I'm+20+years+old;I+am+from+Brazil,+SP;I+study+Computer+Science+at+Estácio;Be+Welcome!+:%29"
+        <h1 id="greeting">hey, I'm Luan 👋</h1>
+        <img id="message" src="https://readme-typing-svg.herokuapp.com/?color=8727a8&size=33&center=true&vCenter=true&width=1000&lines=I'm+20+years+old;I+am+from+Brazil,+SP;I+study+Computer+Science+at+Estácio;Be+Welcome!+:%29"
             alt="Typing SVG">
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('pt-BR')">Português</button>
     </div>
     <div id="skills">
-        <h2>Skills</h2>
+        <h2 id="skillsHeading">Skills</h2>
         <ul>
             <li class="skill-item">
             <li title="HTML5" style="color: #FF5722" class="fa-brands fa-html5 fa-xl"></li>
@@ -49,7 +51,7 @@
         </ul>
     </div>
     <div id="tool">
-        <h2>Tools</h2>
+        <h2 id="toolsHeading">Tools</h2>
         <ul>
             <img
                 src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
@@ -83,7 +85,7 @@
 
 
     <div id="project">
-        <h2>Projects</h2>
+        <h2 id="projectsHeading">Projects</h2>
         <ul>
             <li><a href="#" target="_blank">Celebre Neura</a></li>
             <li><a href="https://github.com/sempsei/portal" target="_blank">NewsPortal</a></li>
@@ -93,7 +95,7 @@
         </ul>
     </div>
     <div id="contact">
-        <h2>Contact</h2>
+        <h2 id="contactHeading">Contact</h2>
         <ul>
             <li>
                 <a title="GitHub" class="fa fa-github fa-xl" href="https://github.com/sempsei" target="_blank"></a>
@@ -111,8 +113,9 @@
     <button id="back-to-top" class="fa-solid fa-arrow-up fa-beat fa-lg" style="color: blueviolet;"></button>
     <script src="https://kit.fontawesome.com/74116afa0b.js" crossorigin="anonymous"></script>
     <script src="topo.js"></script>
+    <script src="script.js"></script>
     <script>
-        alert("In Progress...")
+        
     </script>
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
