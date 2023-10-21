@@ -18,6 +18,11 @@ body {
     display: block;
 }
 
+#container img {
+    width: 100%;
+    height: auto;
+}
+
 #skills {
     text-align: left;
     width: 50%;
