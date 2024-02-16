@@ -1,3 +1,20 @@
+const btnVoltarTopo = document.getElementById("back-to-top");
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        btnVoltarTopo.style.display = "block";
+    } else {
+        btnVoltarTopo.style.display = "none";
+    }
+};
+
+btnVoltarTopo.onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+};
+
 const translations = {
     'en': {
         greeting: "hey, I'm Luan 👋",
@@ -24,5 +41,13 @@ function changeLanguage(language) {
         }
     });
 }
-
 changeLanguage('en');
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text);
+}
+const copyButton = document.querySelector('.copy');
+
+copyButton.addEventListener('click', () => {
+    copyToClipboard('luan.rezende.contato@gmail.com');
+});
