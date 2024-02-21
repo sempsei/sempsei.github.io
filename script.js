@@ -41,6 +41,7 @@ function changeLanguage(language) {
         }
     });
 }
+
 changeLanguage('en');
 
 function copyToClipboard(text) {
