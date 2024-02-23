@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 #container {
     text-align: center;
     margin: 0 auto;
