@@ -14,7 +14,6 @@ btnVoltarTopo.onclick = function () {
         behavior: "smooth"
     });
 };
-
 const translations = {
     'en': {
         greeting: "hey, I'm Luan 👋",
@@ -40,10 +39,14 @@ function changeLanguage(language) {
             element.textContent = translation;
         }
     });
+    
+    const message = document.getElementById('message');
+    if (language === 'en') {
+        message.src = "https://readme-typing-svg.herokuapp.com/?color=8727a8&size=33&center=true&vCenter=true&width=1000&lines=I'm+21+years+old;I+am+from+São+José+do+Rio+Preto,+SP;I+study+Computer+Science+at+Estácio;Be+Welcome!+:%29";
+    } else if (language === 'pt-BR') {
+        message.src = "https://readme-typing-svg.herokuapp.com/?color=8727a8&size=33&center=true&vCenter=true&width=1000&lines=Eu+tenho+21+anos;Eu+sou+de+São+José+do+Rio+Preto,+SP;Eu+estudo+Ciência+da+Computação+na+Estácio;Seja+Bem-vindo!+:%29";
+    }
 }
-
-changeLanguage('en');
-
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text);
 }
