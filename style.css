@@ -24,12 +24,13 @@ ul {
 }
 
 button {
-    background-color: #8229D4;
+    background-color: transparent;
     border-radius: 5px;
     border: none;
     color: #ffffff;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
 #skills {
@@ -107,14 +108,6 @@ footer {
     background-color: #111010;
     color: #ffffff;
     font-size: medium;
-}
-
-#bottom a {
-    text-decoration: none;
-}
-
-#bottom a:hover {
-    color: #8229D4;
 }
 
 @media screen and (max-width: 600px) {
