@@ -54,4 +54,4 @@ const copyButton = document.querySelector('.copy');
 
 copyButton.addEventListener('click', () => {
     copyToClipboard('luan.rezende.contato@gmail.com');
-});
+}); 
